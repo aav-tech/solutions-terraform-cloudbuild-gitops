@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "calypso-dev-306711-tfstate"
     prefix = "env/prod"
   }
 }
